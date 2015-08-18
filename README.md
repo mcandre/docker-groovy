@@ -8,8 +8,8 @@ https://registry.hub.docker.com/u/mcandre/docker-groovy/
 
 ```
 $ make
-docker run --rm mcandre/docker-groovy:2.1.1 groovy --version
-Groovy Version: 2.1.1 JVM: 1.8.0_45 Vendor: Oracle Corporation OS: Linux
+docker run --rm mcandre/docker-groovy:2.1.0 groovy --version
+Groovy Version: 2.1.0 JVM: 1.8.0_45 Vendor: Oracle Corporation OS: Linux
 ```
 
 # REQUIREMENTS
