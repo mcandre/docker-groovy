@@ -1,4 +1,4 @@
 FROM mcandre/docker-gvm
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-ENV PATH /root/.gvm/groovy/1.7.11/bin:$PATH
-RUN bash -lic 'gvm install groovy 1.7.11'
+ENV PATH /root/.gvm/groovy/1.7.10/bin:$PATH
+RUN bash -lic 'gvm install groovy 1.7.10'
