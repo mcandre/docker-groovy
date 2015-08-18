@@ -1,4 +1,4 @@
 FROM mcandre/docker-gvm
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-ENV PATH /root/.gvm/groovy/2.0.4/bin:$PATH
-RUN bash -lic 'gvm install groovy 2.0.4'
+ENV PATH /root/.gvm/groovy/2.0.3/bin:$PATH
+RUN bash -lic 'gvm install groovy 2.0.3'
