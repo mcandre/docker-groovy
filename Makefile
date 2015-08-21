@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-groovy:1.6.6
+IMAGE=mcandre/docker-groovy:1.6.5
 
 all: run
 
