@@ -8,8 +8,8 @@ https://registry.hub.docker.com/u/mcandre/docker-groovy/
 
 ```
 $ make
-docker run --rm mcandre/docker-groovy:1.5.6 groovy --version
-Groovy Version: 1.5.6 JVM: 25.45-b02
+docker run --rm mcandre/docker-groovy:1.5.5 groovy --version
+Groovy Version: 1.5.5 JVM: 25.45-b02
 ```
 
 # REQUIREMENTS
