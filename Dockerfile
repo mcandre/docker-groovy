@@ -1,4 +1,7 @@
-FROM mcandre/docker-gvm
+FROM mcandre/docker-java:8
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-ENV PATH /root/.gvm/groovy/1.5.0/bin:$PATH
-RUN bash -lic 'gvm install groovy 1.5.0'
+ENV PATH /groovy-1.0/bin:$PATH
+ADD http://web.archive.org/web/20130216101006/http://dist.codehaus.org/groovy/distributions/groovy-1.0.tar.gz /groovy-1.0.tar.gz
+RUN apt-get update && \
+    apt-get install -y tar && \
+    tar xvf /groovy-1.0.tar.gz
