@@ -19,6 +19,7 @@ Groovy Version: 2.4.4 JVM: 1.8.0_45 Vendor: Oracle Corporation OS: Linux
 ## Optional
 
 * [make](http://www.gnu.org/software/make/)
+* [Node.js](https://nodejs.org/en/) (for dockerlint)
 
 ## Debian/Ubuntu
 
